@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1388015653874</id>
+			<id>1396816006079</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -25,11 +25,19 @@
 				<arguments>
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-equals-true-false-product</arguments>
+						<arguments>1.0-projectRelativePath-equals-true-false-tetris-ui</arguments>
 					</matcher>
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-equals-true-false-my-lib</arguments>
+						<arguments>1.0-projectRelativePath-equals-true-false-tetris-applet</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-projectRelativePath-equals-true-false-tetris-groovy</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-projectRelativePath-equals-true-false-tetris-core</arguments>
 					</matcher>
 				</arguments>
 			</matcher>
