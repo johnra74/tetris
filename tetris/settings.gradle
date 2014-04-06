@@ -1,0 +1,4 @@
+include "tetris-core"
+include "tetris-ui"
+include "tetris-applet"
+include "tetris-groovy"
