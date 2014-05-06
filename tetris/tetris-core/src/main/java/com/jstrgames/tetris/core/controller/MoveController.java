@@ -57,7 +57,7 @@ public class MoveController extends AbstractActionController {
 	 * @return
 	 */
 	@Override
-	protected boolean isValidateAction() {
+	protected boolean isValidAction() {
 		ActionValidator validator =
 				new ActionValidator(this.game, this);
 		boolean isValid = validator.validate();

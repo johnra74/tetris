@@ -37,7 +37,7 @@ public abstract class AbstractActionController implements IActionController {
 	@Override
 	public boolean execute() {
 		boolean isSuccess = false;
-		if(!game.isGameOver() && isValidateAction()) {
+		if(!game.isGameOver() && isValidAction()) {
 			// commit action
 			game.getShape().setFillCoordinates(this.getTargetCoordinates());
 			isSuccess = true;
@@ -54,6 +54,6 @@ public abstract class AbstractActionController implements IActionController {
 	 * 
 	 * @return
 	 */
-	protected abstract boolean isValidateAction();
+	protected abstract boolean isValidAction();
 	
 }
